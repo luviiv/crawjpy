@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 import csv
 
 def main():
-	yearStart = 2015
+	yearStart = 1994
 	while yearStart<=2015:
 		fetchOneYear(yearStart)
 		yearStart = yearStart+1
